@@ -35,7 +35,7 @@ const FilterDrawer = () => {
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 right-0 xl:w-[30%] w-full lg:w-[37%] 2xl:w-[27%] h-full bg-white rounded-l-[1.3rem] shadow-xl z-50 transform transition-transform duration-500 ease-in-out flex flex-col
+        className={`fixed top-0 right-0 xl:w-[30%] w-full md:w-[63%] lg:w-[37%] 2xl:w-[27%] h-full bg-white rounded-l-[1.3rem] shadow-xl z-50 transform transition-transform duration-500 ease-in-out flex flex-col
           ${isOpen ? "translate-x-0" : "translate-x-full"}`}
       >
         {/* Header */}
