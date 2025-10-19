@@ -120,7 +120,7 @@ describe("Transaction List data", () => {
       )
     ).toBeInTheDocument();
 
-    // data should NOT be shown
+    // data should not be shown
     expect(screen.queryByText("Jane Doe")).not.toBeInTheDocument();
   });
 });

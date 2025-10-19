@@ -19,7 +19,7 @@ import Copy from "../../assets/copy.svg";
 import Invoicing from "../../assets/invoicing.svg";
 import MediaKit from "../../assets/mediakit.svg";
 import Store from "../../assets/store.svg";
-import AppIcon from "../../assets/appIcon.svg";
+import AppIcon from "../../assets/AppIcon.svg";
 import Booking from "../../assets/booking.svg";
 import List from "../../assets/list.svg";
 import { useUser } from "../hooks/useUser";
