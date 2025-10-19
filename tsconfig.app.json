@@ -17,9 +17,10 @@
     "jsx": "react-jsx",
 
     /* Aliases for ShadCN and imports */
-    "baseUrl": ".",
+    // "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"]
+      "*": ["./src/components/*"],
+      "@/*": ["./src/*"]
     },
 
     /* Linting */
@@ -28,10 +29,10 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
+    "noUncheckedSideEffectImports": true
 
     /* Silence TypeScript 6+ deprecation notice */
-    "ignoreDeprecations": "6.0"
+    // "ignoreDeprecations": "6.0"
   },
   "include": ["src"]
 }

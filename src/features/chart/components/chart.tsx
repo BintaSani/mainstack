@@ -6,7 +6,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { useTransactions } from "@/shared/hooks/useTransaction";
+import { useTransactions } from "../../../shared/hooks/useTransaction";
 import { format } from "date-fns";
 import { useFilter } from "@/shared/context/filterContext";
 

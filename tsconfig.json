@@ -2,11 +2,12 @@
   "compilerOptions": {
     "types": ["vitest", "node"],
 
-    "baseUrl": ".",
+    // "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
-    },
-    "ignoreDeprecations": "6.0"
+      "*": ["./src/components/*"],
+      "@/*": ["./src/*"]
+    }
+    // "ignoreDeprecations": "6.0"
   },
   "files": [],
   "references": [
