@@ -22,7 +22,7 @@ const EmptyState = () => {
       <button
         onClick={clearFilters}
         data-testid="clear-filters-button"
-        className="bg-[#EFF1F6] w-fit text-gray-900 px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition-colors"
+        className="bg-[#EFF1F6] hover:scale-105 hover:bg-[#131316] hover:text-white w-fit text-gray-900 px-6 py-3 rounded-full font-medium transition-colors"
       >
         Clear Filter
       </button>

@@ -19,7 +19,7 @@ const Revenue = () => {
                 <p className="text-[#56616B] mb-1 font-medium text-sm leading-4">
                   Available Balance
                 </p>
-                <p className="text-[#131316] font-bold text-2xl leading-10 xl:text-3xl xl:leading-11 2xl:text-4xl 2xl:leading-12">
+                <p className="text-[#131316] font-bold text-xl md:text-2xl leading-10 xl:text-3xl xl:leading-11 2xl:text-4xl 2xl:leading-12">
                   USD {isLoading ? "0.00" : wallet?.balance.toFixed(2)}
                 </p>
               </div>

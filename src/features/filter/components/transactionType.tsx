@@ -4,9 +4,9 @@ import { useFilter } from "@/shared/context/filterContext";
 
 const transactionOptions = [
   "digital_product",
-  "Refer & Earn",
+
   "withdrawal",
-  "Cashbacks",
+
   "webinar",
   "coffee",
 ];

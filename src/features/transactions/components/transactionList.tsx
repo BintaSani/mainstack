@@ -41,17 +41,19 @@ const TransactionsList = () => {
       {/* Header */}
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between pb-6 border-b ">
         <div>
-          <h2 className="xl:text-2xl text-xl leading-7 xl:leading-8 font-bold text-[#131316]">
+          <h2 className="xl:text-2xl md:text-xl text-lg leading-7 xl:leading-8 font-bold text-[#131316]">
             {filteredTransactions.length} Transactions
           </h2>
           <p className="text-sm font-medium leading-4 text-[#56616B]">
-            {filters.startDate && filters.endDate
+            {filters.quickRange !== null
+              ? `Your transactions for the last ${filters.quickRange}`
+              : filters.startDate && filters.endDate
               ? `Transactions from ${new Date(
                   filters.startDate
                 ).toLocaleDateString()} to ${new Date(
                   filters.endDate
                 ).toLocaleDateString()}`
-              : "Your transactions for the last 7 days"}
+              : "Your transactions overview"}
           </p>
         </div>
 
