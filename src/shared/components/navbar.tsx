@@ -20,6 +20,7 @@ import Invoicing from "../../assets/invoicing.svg";
 import MediaKit from "../../assets/mediakit.svg";
 import Store from "../../assets/store.svg";
 import AppIcon from "../../assets/AppIcon.svg";
+import AppIcon1 from "../../assets/AppIcon1.svg";
 import Booking from "../../assets/booking.svg";
 import List from "../../assets/list.svg";
 import { useUser } from "../hooks/useUser";
@@ -127,7 +128,11 @@ export default function Navbar() {
                       data-testid="app-button"
                     >
                       <div className="flex items-center gap-2">
-                        {item.icon}
+                        {openDropdown === item.label ? (
+                          <img src={AppIcon1} alt="app-icon" />
+                        ) : (
+                          item.icon
+                        )}
                         <span>{item.label}</span>
                       </div>
                       {openDropdown === item.label && (
